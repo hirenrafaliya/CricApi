@@ -12,7 +12,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="12dp"
+        android:layout_margin="8dp"
         android:id="@+id/recyclerView"
         app:layout_constraintBottom_toTopOf="@+id/btnGetNewMatches"
         />
@@ -21,9 +21,10 @@
         android:id="@+id/btnGetNewMatches"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="Get New Matches"
+        android:layout_margin="8dp"
+        android:padding="12dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Get  Matches"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
